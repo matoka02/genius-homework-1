@@ -136,6 +136,7 @@ button{
   font-weight: 700;
   line-height: normal;
 }
+
 /* ----- END COMMON----- */
 
 /* ----- START HEADER----- */
@@ -168,8 +169,70 @@ nav{
   line-height: 1.5; 
   color: #4A4A4A;
 }
+
 /* ----- END HERO----- */
 
+/* ----- START ABOUT----- */
+
+.about-container{
+  font-size: 22px;
+  line-height: 1.72;
+}
+
+/* ----- END ABOUT----- */
+
+/* ----- START REASONS----- */
+
+.reasons-container{
+  font-size: 18px;
+  line-height: 1.33; 
+  color: var(--primary-color-dark);
+}
+
+/* ----- END REASONS----- */
+
+/* ----- START PROCEDURES----- */
+
+.procedures-container{
+  font-size: 22px;  
+  line-height: 1.18; 
+  color: var(--primary-color-light);
+}
+
+/* ----- END PROCEDURES----- */
+
+/* ----- START FORM----- */
+
+form{
+  font-size: 13px;
+  color: var(--primary-color-light);
+  background-color: var(--brand-color-dark);
+}
+
+.form-subtitle{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+form>label>input{
+  color: inherit;
+  background-color: inherit;
+}
+
+.form-annotation{
+  font-size: 12px;
+  line-height: 1.5; /* 150% */
+  color: #747272;
+}
+
+
+/* ----- END FORM----- */
 
 /* ----- START FOOTER----- */
+
+footer{
+  color: var(--primary-color-light);
+  background-color: var(--brand-color-dark);
+}
+
 /* ----- END FOOTER----- */
